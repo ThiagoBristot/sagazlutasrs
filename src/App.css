@@ -937,11 +937,11 @@ body::after {
 
   .schedule-sagaz-div {
     position: relative;
-    z-index: 1;
+    z-index: 3;
   }
 
   .schedule-sagaz-div h4 {
-    z-index: 1;
+    z-index: 3;
   }
 
   .schedule-form form {
