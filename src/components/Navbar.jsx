@@ -35,7 +35,7 @@ const Navbar = () => {
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
         <li onClick={() => { scrollToSection('home'); if (menuOpen) toggleMenu(); }}>Início</li>
         <li onClick={() => { scrollToSection('about'); if (menuOpen) toggleMenu(); }}>Sobre</li>
-        <li onClick={() => { scrollToSection('classes'); if (menuOpen) toggleMenu(); }}>Aulas</li>
+        <li onClick={() => { scrollToSection('classes'); if (menuOpen) toggleMenu(); }}>Galeria</li>
         <button className="agendar-aula-btn" onClick={() => { scrollToSection('schedule'); if (menuOpen) toggleMenu(); }}>
           Agende sua Aula
         </button>
