@@ -480,7 +480,7 @@ body::after {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  width: 100%;
+  width: 90%;
   align-items: center;
   justify-items: center;
   height: auto;
@@ -491,7 +491,7 @@ body::after {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -504,7 +504,7 @@ body::after {
 
 .class-item img {
   width: 100%;
-  height: 600px;
+  height: 700px;
   object-fit: cover; /* Mantém a imagem bem ajustada sem distorcer */
   border-radius: 10px 10px 0 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
